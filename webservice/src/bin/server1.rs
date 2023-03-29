@@ -1,4 +1,4 @@
-use actix_web::{web, App, HttpResponse, HttpServer, Request, Response};
+use actix_web::{web, App, HttpResponse, HttpServer, Responder};
 use std::io;
 
 // 配置 route
